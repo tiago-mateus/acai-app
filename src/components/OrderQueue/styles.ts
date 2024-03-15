@@ -1,8 +1,10 @@
 import styled from "styled-components";
 
 export const StyledOrderQueue = styled.div`
-    width: 20%;
-    height: 100%;
-    padding: 1em .5rem;
-    box-sizing: border-box;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    direction: rtl;
+    scrollbar-color: #4c03c1 #1b0143;
+    padding: 0 .5rem 0 .5rem;
+    max-height: 82vh;
 `;

@@ -1,15 +1,15 @@
 import { NavLink } from "react-router-dom";
-import { Container } from "./styles";
+import { StyledHeader } from "./styles";
 
 export function Header() {
     return (
-        <Container>
+        <StyledHeader>
             <nav>
                 <NavLink to="/">RESUMO</NavLink>
                 <NavLink to="/sale">VENDA</NavLink>
                 <NavLink to="/order">PEDIDOS</NavLink>
             </nav>
-        </Container>
+        </StyledHeader>
 
             );
 }

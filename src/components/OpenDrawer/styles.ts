@@ -4,7 +4,8 @@ import { defaultThemes } from "../../styles/themes/default";
 export const StyledOpenDrawer = styled.div`
     display: flex;
     flex-direction: row;
-    height: 7rem;
+    height: auto;
+    max-height: 10rem;
     width: 100%;
     background-color: ${defaultThemes["green-100"]};
     border-radius: .4rem;
@@ -13,4 +14,5 @@ export const StyledOpenDrawer = styled.div`
     font-size: 2rem;
     align-items: center;
     justify-content: center;
+    margin-bottom: 15px;
 `;

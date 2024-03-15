@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const StyledResumePage = styled.div`
-    width: 100%;
-    /* height: 50rem; */
-    display: flex;
-    flex-direction: row;
+    height: 85vh;
+    display: grid;
+    grid-template-columns: 20rem 1fr 20rem;
+    padding: 0 .5rem 0 .5rem;
 `;

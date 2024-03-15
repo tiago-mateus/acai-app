@@ -2,26 +2,27 @@ import { styled } from "styled-components";
 import { defaultThemes } from "../../styles/themes/default";
 
 
-export const Container = styled.div`
+export const StyledHeader = styled.div`
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    height: 15vh;
     align-items: center;
-    background: ${defaultThemes["purple-700"]};
-    height: 4.7rem;
-    border-radius: 15px;
-    margin-top: 2rem;
-
     nav{
         display: flex;
         gap: 1rem;
-        padding: 0 1rem 0 1rem;
+        padding: 0 0.7rem 0 0.7rem;
+        background: ${defaultThemes["purple-700"]};
+        height: 4rem;
+        border-radius: 15px;
+        justify-content: center;
+        align-items: center;
+        min-width: 30rem;
     }
 
     a{
         text-decoration: none;
         font-weight: bold;
-        width: 8rem;
+        width: 10rem;
         height: 3rem;
         color: rgba(255, 255, 255, 0.7);
         border-radius: 8px;
