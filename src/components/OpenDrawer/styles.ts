@@ -14,5 +14,7 @@ export const StyledOpenDrawer = styled.div`
     font-size: 2rem;
     align-items: center;
     justify-content: center;
-    margin-bottom: 15px;
+    margin: 0 .5rem .5rem;
+    color: white;
+
 `;

@@ -9,7 +9,6 @@ export const OrderQueue = () => {
             <OrderCard></OrderCard>
             <OrderCard></OrderCard>
             <OrderCard></OrderCard>
-            <OrderCard></OrderCard>
         </StyledOrderQueue>
     )
 }

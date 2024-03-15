@@ -6,5 +6,5 @@ export const StyledCashDrawer = styled.div`
     min-height: 20rem;
     width: 100%;
     border-radius: .4rem;
-    margin-bottom: .5rem;
+    margin: 0 .5rem .5rem;
 `;
