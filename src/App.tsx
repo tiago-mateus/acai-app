@@ -1,8 +1,8 @@
-import { ResumoPage } from './pages/ResumoPage';
+import { ResumePage } from './pages/ResumePage';
 
 function App() {
   return (
-    <ResumoPage></ResumoPage>
+    <ResumePage></ResumePage>
   )
 }
 
