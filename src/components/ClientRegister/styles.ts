@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { defaultThemes } from "../../styles/themes/default";
 
 export const StyledClientRegister = styled.div`
-    background-color: ${defaultThemes["purple-300"]};
+    background-color: ${defaultThemes["purple-400"]};
     height: 5rem;
     width: 100%;
     border-radius: .4rem;

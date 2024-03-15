@@ -4,7 +4,7 @@ import { defaultThemes } from "../../styles/themes/default";
 export const StyledOpenDrawer = styled.div`
     display: flex;
     flex-direction: row;
-    height: 6.5rem;
+    height: 7rem;
     width: 100%;
     background-color: ${defaultThemes["green-100"]};
     border-radius: .4rem;
