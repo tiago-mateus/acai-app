@@ -1,8 +1,15 @@
-import { ResumoPage } from './pages/ResumoPage';
+import { BrowserRouter } from 'react-router-dom';
+import { Router } from './Router';
+import { GlobalStyle } from './styles/global';
 
 function App() {
   return (
-    <ResumoPage></ResumoPage>
+    <>
+      <BrowserRouter>
+        <Router />
+      </BrowserRouter>
+      <GlobalStyle />
+    </>
   )
 }
 
